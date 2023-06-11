@@ -8,6 +8,23 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/DepremMisafiri.styles.css" asp-append-version="true" />
 </head>
+
+<body>
+    <header>
+        @Html.Partial("_navbar")
+    </header>
+
+    <main>
+        <div class="container m-4">
+            @RenderBody()
+        </div>
+    </main>
+
+    <footer>
+        @Html.Partial("_footer")
+    </footer>
+</body>
+@*
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
@@ -46,4 +63,4 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
-</html>
+</html>*@

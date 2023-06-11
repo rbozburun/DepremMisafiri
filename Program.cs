@@ -13,6 +13,7 @@ builder.Services.AddTransient<IRepository, EfRepository>();
 
 // If the Repository interface requested, the app calls correspanded class implementance of interface
 builder.Services.AddTransient<IEditorRepository, EditorRepository>();
+builder.Services.AddTransient<IHostRepository, HostRepository>();
 
 var app = builder.Build();
 
