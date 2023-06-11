@@ -1,0 +1,41 @@
+﻿@model IEnumerable<DepremMisafiri.Models.EarthquakeVictim>
+@{
+    ViewData["Title"] = "EqVictimList";
+}
+
+<div class="m-4">
+    <div class="bg-success text-white p-4"><b>EarthquakeVictim List</b></div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Email</th>
+                <th>Username</th>
+                <th>Location</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.Email</td>
+                    <td>@item.Username</td>
+                    <td>@item.Location</td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                        <a href="#" class="btn btn-primary btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+

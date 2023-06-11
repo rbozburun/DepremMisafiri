@@ -16,12 +16,40 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\resul\source\repos\DepremMisafiri\DepremMisafiri
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/resul/source/repos/DepremMisafiri/DepremMisafiri/Views/Admin/AdminList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resul/source/repos/DepremMisafiri/DepremMisafiri/Views/Editor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resul/source/repos/DepremMisafiri/DepremMisafiri/Views/Editor/EditorList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yXEVkaXRvckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resul/source/repos/DepremMisafiri/DepremMisafiri/Views/EqVictim/EqVictimList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXFWaWN0aW1cRXFWaWN0aW1MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/resul/source/repos/DepremMisafiri/DepremMisafiri/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/resul/source/repos/DepremMisafiri/DepremMisafiri/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resul/source/repos/DepremMisafiri/DepremMisafiri/Views/Host/HostList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zdFxIb3N0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resul/source/repos/DepremMisafiri/DepremMisafiri/Views/House/HouseList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcSG91c2VMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/resul/source/repos/DepremMisafiri/DepremMisafiri/Views/Request/RequestList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdFxSZXF1ZXN0TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/resul/source/repos/DepremMisafiri/DepremMisafiri/Views/Shared/Error.cshtml]

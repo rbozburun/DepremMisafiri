@@ -1,3 +1,4 @@
+using DepremMisafiri.Data;
 using DepremMisafiri.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,6 +7,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("connectionsql")));
+
+// If the IRepository requested, the app sends EfRepository
+builder.Services.AddTransient<IRepository, EfRepository>();
+
+// If the Repository interface requested, the app calls correspanded class implementance of interface
+builder.Services.AddTransient<IEditorRepository, EditorRepository>();
 
 var app = builder.Build();
 

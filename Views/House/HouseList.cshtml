@@ -1,0 +1,44 @@
+﻿@model IEnumerable<DepremMisafiri.Models.House>
+@{
+    ViewData["Title"] = "HouseList";
+}
+
+<div class="m-4">
+    <div class="bg-success text-white p-4"><b>House List</b></div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>HostId</th>
+                <th>Status</th>
+                <th>Location</th>
+                <th>SpecialConditions</th>
+                <th>MaxAvailableDays</th>
+                <th>MaxGuestCount</th>
+                <th>IsAccepted</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.HostId</td>
+                    <td>@item.Status</td>
+                    <td>@item.Location</td>
+                    <td>@item.SpecialConditions</td>
+                    <td>@item.MaxAvailableDays</td>
+                    <td>@item.MaxGuestCount</td>
+                    <td>@item.IsAccepted</td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                        <a href="#" class="btn btn-primary btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
